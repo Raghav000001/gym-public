@@ -10,10 +10,10 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "R-zone Yoga and Fitness - Holistic Wellness & Fitness",
+  title: "Holistic Wellness & Fitness",
   description:
     "Experience authentic Indian yoga and holistic wellness with personalized AI-powered plans and expert guidance at R-zone.",
-    generator: 'v0.dev'
+    generator: 'Next.js'
 }
 
 export default function RootLayout({

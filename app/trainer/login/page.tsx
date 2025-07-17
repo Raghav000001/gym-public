@@ -119,11 +119,7 @@ export default function TrainerLogin() {
             </Button>
           </form>
 
-          <div className="mt-6 text-center text-sm text-gray-600 dark:text-gray-300">
-            <p>Demo Credentials:</p>
-            <p>Email: trainer@serenityyoga.com</p>
-            <p>Password: trainer123</p>
-          </div>
+        
         </CardContent>
       </Card>
     </div>
