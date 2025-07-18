@@ -84,7 +84,7 @@ const trainersData = {
     ],
   },
   // Add other trainers here...
-}
+};
 
 export default function TrainerProfile({ params }: { params: { slug: string } }) {
   const trainer = trainersData[params.slug as keyof typeof trainersData]
@@ -230,4 +230,19 @@ export default function TrainerProfile({ params }: { params: { slug: string } })
                           <h5 className="font-semibold">{classType.name}</h5>
                           <Badge variant="secondary">{classType.price}</Badge>
                         </div>
-                        <p className="text\
+                        <p className="text-gray-600 dark:text-gray-300 mb-2">
+                          {classType.description}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            {/* End Main Content */}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
